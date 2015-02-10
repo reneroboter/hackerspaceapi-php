@@ -1,0 +1,42 @@
+{
+    "api": "0.13",
+    "space": "Hackerspace Bielefeld e.V.",
+    "logo": "http://hackerspace-bielefeld.de/spacestatus/hackerspace-bielefeld-logo.gif",
+    "url": "http://hackerspace-bielefeld.de",
+    "location": {
+        "lat": 52.038224,
+        "lon": 8.533056,
+        "address": "Sudbrackstrasse 42, 33611 Bielefeld, Germany"
+    },
+    "contact": {
+        "phone": "+49-52-1337-322-42",
+        "jabber": "hsb@chat.jabber.space.bi",
+        "ml": "public@hackerspace-bielefeld.de",
+        "twitter": "@HackerspaceBI",
+        "email": "info@hackerspace-bielefeld.de",
+        "facebook": "https://www.facebook.com/HackerspaceBielefeld",
+        "issue_mail": "admin@hackerspace-bielefeld.de"
+    },
+    "state": {
+        "icon": {
+            "open": "http://hackerspace-bielefeld.de/spacestatus/hackerspace-bielefeld-open.gif",
+            "closed": "http://hackerspace-bielefeld.de/spacestatus/hackerspace-bielefeld-closed.gif"
+        },
+        "open": false,
+        "lastchange": 1423610996,
+        "message": "",
+        "trigger_person": "infobot"
+    },
+    "icon": {
+        "open": "http://hackerspace-bielefeld.de/spacestatus/hackerspace-bielefeld-open.gif",
+        "closed": "http://hackerspace-bielefeld.de/spacestatus/hackerspace-bielefeld-closed.gif"
+    },
+    "open": false,
+    "projects": [
+        "https://github.com/HackerspaceBielefeld",
+        "http://repos.schadco.de/"
+    ],
+    "issue_report_channels": [
+        "email"
+    ]
+}
