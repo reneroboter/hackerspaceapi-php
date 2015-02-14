@@ -22,12 +22,15 @@ http_request.onreadystatechange  = function()
 	if (http_request.readyState == 4  )
 	{
 		var jsonObj = JSON.parse(http_request.responseText);
-		var element = document.getElementById("status");
-		element.src = "hackerspace-bielefeld-logo.gif";
-		if( jsonObj.state.open == 1 )
-		{ element.src = jsonObj.state.icon.open; }
-		else
-		{ element.src = jsonObj.state.icon.closed; }
+		var elements = document.getElementsByName("SpaceAPI-Status");
+		for(i=0; i<=elements.length-1; i++)
+		{
+			elements[i].src = "hackerspace-bielefeld-logo.gif";
+			if( jsonObj.state.open == 1 )
+			{ elements[i].src = jsonObj.state.icon.open; }
+			else
+			{ elements[i].src = jsonObj.state.icon.closed; }
+		}
 	}
 }
 http_request.open("GET", data_file, true);
